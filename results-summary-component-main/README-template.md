@@ -4,12 +4,13 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![Desktop](/results-summary-component-main/assets/images/desktop.png) ![Mobile](/results-summary-component-main/assets/images/mobile.png)
+![Desktop](/results-summary-component-main/assets/images/desktop.png) ![Mobile](/results-summary-component-main/assets/images/mobile.png) ![Hover](/results-summary-component-main/assets/images/hover)
+
 
 ### Links
 
 - Solution URL: (http://127.0.0.1:5501/single-price-grid-component-master/single-price.html)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: (https://github.com/okedo01)
 
 ## My process
 
