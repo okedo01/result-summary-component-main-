@@ -76,29 +76,9 @@ body{
 .items{
     display: flex;
     justify-content: space-between;
-    background-color: hsla(0, 100%, 97%);
     padding: 10px 0;
     margin: 10px auto;
     border-radius: 10px;
-}
-
-body > div.container > section.summary > div > div:nth-child(2) > div{
-    background-color: hwb(39 72% 12%);
-}
-body > div.container > section.summary > div > div:nth-child(2) > div > div > p{
-    color: hsl(39, 100%, 56%);
-}
-body > div.container > section.summary > div > div:nth-child(3) > div{
-    background-color: hsl(167, 46%, 86%);
-}
-body > div.container > section.summary > div > div:nth-child(3) > div > div > p{
-    color: hsl(166, 100%, 37%);
-}
-body > div.container > section.summary > div > div:nth-child(4) > div{
-    background-color: hsl(242, 49%, 89%);
-}
-body > div.container > section.summary > div > div:nth-child(4) > div > div > p{
-    color: hsl(234, 85%, 45%);
 }
 
 .img-items{
@@ -116,6 +96,38 @@ body > div.container > section.summary > div > div:nth-child(4) > div > div > p{
 }
 .items>p span{
     font-weight: 500;
+}
+
+/* Reaction */
+body > div.container > section.summary > div > div:nth-child(1) > div{
+    background-color: hsl(0, 100%, 98%);
+}
+body > div.container > section.summary > div > div:nth-child(1) > div > div > p{
+    color: hsl(0, 100%, 67%);
+}
+
+/* Memory */
+body > div.container > section.summary > div > div:nth-child(2) > div{
+    background-color: hsl(0, 0%, 100%);
+}
+body > div.container > section.summary > div > div:nth-child(2) > div > div > p{
+    color: hsl(39, 100%, 56%);
+}
+
+/* Verbal */
+body > div.container > section.summary > div > div:nth-child(3) > div{
+    background-color: hsl(170, 38%, 94%);
+}
+body > div.container > section.summary > div > div:nth-child(3) > div > div > p{
+    color: hsl(166, 100%, 37%);
+}
+
+/* Visual */
+body > div.container > section.summary > div > div:nth-child(4) > div{
+    background-color: hsl(240, 17%, 93%);
+}
+body > div.container > section.summary > div > div:nth-child(4) > div > div > p{
+    color: hsl(234, 85%, 45%);
 }
 
 .button{
