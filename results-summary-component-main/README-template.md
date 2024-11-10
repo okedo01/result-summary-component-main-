@@ -4,7 +4,9 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 
 ### Screenshot
 
-![Desktop](/results-summary-component-main/assets/images/desktop.png) ![Mobile](/results-summary-component-main/assets/images/mobile.png) ![Hover](/results-summary-component-main/assets/images/hover.png)
+Desktop ![Desktop](/results-summary-component-main/assets/images/desktop.png) 
+Hover ![Hover](/results-summary-component-main/assets/images/hover.png) 
+Mobile ![Mobile](/results-summary-component-main/assets/images/mobile.png) 
 
 
 ### Links
