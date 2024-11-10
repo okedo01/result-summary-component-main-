@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,6 +11,7 @@
 body{
     display: grid;
     place-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 .container{
@@ -69,7 +73,7 @@ body{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.reaction{
+.items{
     display: flex;
     justify-content: space-between;
     background-color: hsla(0, 100%, 97%);
@@ -77,94 +81,43 @@ body{
     margin: 10px auto;
     border-radius: 10px;
 }
-.img-reaction{
+
+body > div.container > section.summary > div > div:nth-child(2) > div{
+    background-color: hwb(39 72% 12%);
+}
+body > div.container > section.summary > div > div:nth-child(2) > div > div > p{
+    color: hsl(39, 100%, 56%);
+}
+body > div.container > section.summary > div > div:nth-child(3) > div{
+    background-color: hsl(167, 46%, 86%);
+}
+body > div.container > section.summary > div > div:nth-child(3) > div > div > p{
+    color: hsl(166, 100%, 37%);
+}
+body > div.container > section.summary > div > div:nth-child(4) > div{
+    background-color: hsl(242, 49%, 89%);
+}
+body > div.container > section.summary > div > div:nth-child(4) > div > div > p{
+    color: hsl(234, 85%, 45%);
+}
+
+.img-items{
     display: flex;
     padding-left: 10px;
 }
-.img-reaction p{
+.img-items p{
     color:  hsl(0, 100%, 67%);
     padding: 0 7px;
     font-weight: 700;
 }
-.reaction>p{
+.items>p{
     padding-right: 15px;
     font-weight: 700;
 }
-.reaction>p span{
+.items>p span{
     font-weight: 500;
 }
-.memory{
-    display: flex;
-    justify-content: space-between;
-    background-color: hsla(43, 100%, 97%);
-    padding: 10px 0;
-    margin: 15px auto;
-    border-radius: 10px;
-}
-.img-memory{
-    display: flex;
-    padding-left: 10px;
-}
-.img-memory p{
-    color:  hsl(39, 100%, 56%);
-    padding: 0 7px;
-    font-weight: 700;
-}
-.memory>p{
-    padding-right: 15px;
-    font-weight: 700;
-}
-.memory>p span{
-    font-weight: 500;
-}
-.verbal{
-    display: flex;
-    justify-content: space-between;
-    background-color: hsla(166, 100%, 97%);
-    padding: 10px 0;
-    margin: 15px auto;
-    border-radius: 10px;
-}
-.img-verbal{
-    display: flex;
-    padding-left: 10px;
-}
-.img-verbal p{
-    color:  hsl(166, 100%, 37%);
-    padding: 0 7px;
-    font-weight: 700;
-}
-.verbal>p{
-    padding-right: 15px;
-    font-weight: 700;
-}
-.verbal>p span{
-    font-weight: 500;
-}
-.visual{
-    display: flex;
-    justify-content: space-between;
-    background-color: hsla(232, 100%, 97%);
-    padding: 10px 0;
-    margin: 15px auto;
-    border-radius: 10px;
-}
-.img-visual{
-    display: flex;
-    padding-left: 10px;
-}
-.img-visual p{
-    color:  hsl(234, 85%, 45%);
-    padding: 0 7px;
-    font-weight: 700;
-}
-.visual>p{
-    padding-right: 15px;
-    font-weight: 700;
-}
-.visual>p span{
-    font-weight: 500;
-}
+
 .button{
     background-color: hsl(224, 30%, 27%);
     color: hsl(0, 0%, 100%);
@@ -180,6 +133,7 @@ body{
 .button:hover{
     background-color: hsl(241, 81%, 54%);
     border: 1px solid hsl(241, 81%, 54%);
+    transition: .5s;
 }
 
 .user{

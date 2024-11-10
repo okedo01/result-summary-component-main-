@@ -9,8 +9,8 @@ const addDataToHtml = () => {
             const containerDiv = document.createElement('div');
 
             containerDiv.innerHTML = `
-                <div class="reaction">
-                <div class="img-reaction">
+                <div class="items">
+                <div class="img-items">
                 <img src="${item.icon}" alt="">
                 <p>${item.category}</p>
                 </div>
